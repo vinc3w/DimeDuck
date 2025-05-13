@@ -16,7 +16,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About DimeDuck
 
-![Product Name Screen Shot][dashboard.png]
+![Dashboard screenshot][dashboard.png]
 
 **DimeDuck** is a simple and intuitive budget tracking app designed to help you take control of your finances. Whether you're managing monthly expenses, saving for a goal, or just trying to stay on top of your spending habits, this app provides the tools you need to make informed financial decisions.
 
