@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  --primary: #4F8A8B;
+  --background: #F9FAFB;
+  --card: #FFFFFF;
+  --text-primary: #111827;
+  --text-secondary: #4B5563;
+  --border: #E5E7EB;
+  --button-text: #FFFFFF;
+  --disabled: #9b9ea3;
+}
+
+body {
+  background-color: var(--background);
+}
