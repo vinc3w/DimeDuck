@@ -22,13 +22,13 @@ module.exports = async (req, res) => {
         $match: {
           userId: user._id,
           date: {
-            $gte: moment(budget.startDate).startOf("day").toDate(),
+            $gte: moment(budget.updatedAt).startOf("day").toDate(),
             $lte: moment(today).endOf("day").toDate(),
           },
         },
       },
     ]);
-    const dateDiff = dateDayDiff(today, budget.startDate) + 1;
+    const dateDiff = dateDayDiff(today, budget.updatedAt) + 1;
     let total = 0;
     [
       ...available,

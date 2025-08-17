@@ -78,8 +78,8 @@ module.exports = async (req, res) => {
         $match: {
           userId: new mongoose.Types.ObjectId(userId),
           date: {
-            $gte: moment(date).startOf("day"),
-            $lte: moment(date).endOf("day"),
+            $gte: moment(date).startOf("day").toDate(),
+            $lte: moment(date).endOf("day").toDate(),
           },
         },
       },
