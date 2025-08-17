@@ -28,6 +28,7 @@ function TotalExpensesPieChartCard() {
         display: "flex",
         flexDirection: "column",
         gap: 4,
+        height: "420px",
       }}
     >
       <Box

@@ -27,6 +27,7 @@ function TopExpensesCard() {
         display: "flex",
         flexDirection: "column",
         gap: 4,
+        maxHeight: "420px",
       }}
     >
       <Box
