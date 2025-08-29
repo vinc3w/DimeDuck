@@ -43,7 +43,7 @@ function BudgetsRoute() {
         </Grid>
       </Grid>
       {
-        !isBudgetLoading && budget &&
+        !isBudgetLoading &&
         <SetEditBudgetPanel
           showSetEditBudgetPanel={showSetBudgetPanel}
           setShowSetEditBudgetPanel={setShowSetBudgetPanel}

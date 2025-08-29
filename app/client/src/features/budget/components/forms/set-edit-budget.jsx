@@ -47,8 +47,8 @@ function SetEditBudgetForm({
   return (
     <Formik
       initialValues={{
-        amount: budget.amount || 0,
-        startDate: moment(budget.startDate) || moment(),
+        amount: budget?.amount || 0,
+        startDate: budget ? moment(budget.startDate) : moment(),
       }}
       validationSchema={ValidationSchema}
       onSubmit={handleSubmit}
